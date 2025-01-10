@@ -1,0 +1,1 @@
+Định nghĩa Interface cho logic nghiệp vụ
