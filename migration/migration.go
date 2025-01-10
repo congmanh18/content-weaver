@@ -12,7 +12,7 @@ func Migration(db *gorm.DB) {
 	log.Printf("Migration.....")
 	err := db.AutoMigrate(
 		entity.Ebook{},
-		entity.EbookIndex{},
+		entity.EbookOutline{},
 		entity.EbookContent{},
 	)
 	if err != nil {

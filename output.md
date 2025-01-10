@@ -1401,7 +1401,7 @@ xix
 
 constraints, views, and transactions
 Too many cooks spoil the database
-Your database has grown and other people need to use it. 
+Your database has grown and other people need to use it.
 The problem is that some of them won’t be as skilled at SQL as you are. You need ways
 to keep them from entering the wrong data, techniques for allowing them to only see
 part of the data, and ways to stop them from stepping on each other when they try

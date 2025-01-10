@@ -1,11 +1,11 @@
 package entity
 
-type EbookIndex struct {
-	ID        string `json:"id"`
-	EbookID   int    `json:"ebook_id"`
-	IndexName string `json:"index_name"`
+type EbookOutline struct {
+	ID          string `json:"id"`
+	EbookID     int    `json:"ebook_id"`
+	OutlineName string `json:"outline_name"`
 }
 
-func (e *EbookIndex) TableName() string {
-	return "pdf.ebook_indexes"
+func (e *EbookOutline) TableName() string {
+	return "pdf.ebook_outlines"
 }
